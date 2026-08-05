@@ -1,11 +1,11 @@
 [[entries]]
-title = "posts"
+title = "entradas"
 
   [entries.post_list]
-  section = "posts"
+  section = "entradas"
   show_more = true
   show_more_text = "ver más..."
-  show_more_url = "posts"
+  show_more_url = "entradas"
 
 [[entries]]
 title = "rss"
