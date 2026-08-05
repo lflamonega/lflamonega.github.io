@@ -4,6 +4,6 @@ title = 'Laureano F. Lamonega'
 theme = 'no-style-please'
 
 [params]
-  description = 'Rompo cosas hasta que las saco andando. Hardware, Linux, infra y DevOps.'
+  description = 'Sitio personal de Laureano Francisco Lamonega.'
   [params.theme_config]
     back_home_text = '← atrás'

@@ -2,4 +2,4 @@
 title: "Inicio"
 ---
 
-Laureano Francisco Lamonega.
+Rompo cosas hasta que las saco andando. Hardware, Linux, infra y DevOps.
