@@ -3,5 +3,10 @@ title = "inicio"
 url = "/"
 
 [[entries]]
-title = "posts"
-url = "/posts"
+title = "entradas"
+
+  [entries.post_list]
+  section = "posts"
+  show_more = true
+  show_more_text = "ver todas..."
+  show_more_url = "posts"
