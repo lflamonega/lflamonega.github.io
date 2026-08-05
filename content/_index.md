@@ -1,7 +1,5 @@
-+++
-title = "Inicio"
-date = 2026-08-05
-draft = false
-+++
+---
+title: "Inicio"
+---
 
 Laureano Francisco Lamonega.

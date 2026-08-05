@@ -1,9 +1,7 @@
-baseURL  = "https://lflamonega.github.io/"
-languageCode = "es-ar"
-title    = "Laureano F. Lamonega"
-copyright = "© Laureano F. Lamonega"
-
-enableRobotsTXT = true
+baseURL = 'https://lflamonega.github.io/'
+locale = 'es-ar'
+title = 'Laureano F. Lamonega'
+theme = 'no-style-please'
 
 [params]
-  description = "Laureano Francisco Lamonega."
+  description = 'Laureano Francisco Lamonega.'
