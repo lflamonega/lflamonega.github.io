@@ -5,3 +5,5 @@ theme = 'no-style-please'
 
 [params]
   description = 'Laureano Francisco Lamonega.'
+  [params.theme_config]
+    back_home_text = '← atrás'
