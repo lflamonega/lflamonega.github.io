@@ -1,5 +1,5 @@
 baseURL  = "https://lflamonega.github.io/"
-locale   = "es-ar"
+languageCode = "es-ar"
 title    = "Laureano F. Lamonega"
 copyright = "© Laureano F. Lamonega"
 
