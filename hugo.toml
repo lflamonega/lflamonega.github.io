@@ -1,0 +1,53 @@
+baseURL      = "https://lflamonega.github.io/"
+locale       = "es-ar"
+title        = "Laureano F. Lamonega"
+theme        = "nostyleplease"
+copyright    = "© Laureano F. Lamonega"
+
+enableRobotsTXT = true
+
+[author]
+  name = "Laureano F. Lamonega"
+
+[params]
+  description = "Laureano Francisco Lamonega. Ingresaste al dominio de Laureano Francisco Lamonega."
+
+  [params.theme_config]
+    appearance        = "auto"
+    back_home_text    = "← inicio"
+    date_format       = "2006-01-02"
+    isListGroupByDate = true
+    isShowFooter      = true
+    show_description  = true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min      = "0.41.0"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+
+  [markup.highlight]
+    anchorLineNos      = false
+    codeFences         = true
+    guessSyntax        = false
+    hl_Lines           = ''
+    hl_inline          = false
+    lineAnchors        = ''
+    lineNoStart        = 1
+    lineNos            = false
+    lineNumbersInTable = true
+    noClasses          = true
+    noHl               = false
+    style              = 'github-dark'
+    tabWidth           = 4
+
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel   = 3
+    ordered    = false
