@@ -1,31 +1,33 @@
 [[entries]]
-title = "X / @lflamonega"
-url = "https://x.com/lflamonega"
-
-[[entries]]
-title = "LinkedIn"
-url = "https://linkedin.com/in/lflamonega"
-
-[[entries]]
-title = "GitHub"
-url = "https://github.com/lflamonega"
-
-[[entries]]
-title = "YouTube"
-url = "https://youtube.com/@lflamonega"
-
-[[entries]]
-title = "Correo"
-url = "mailto:lflamonega@gmail.com"
-
-[[entries]]
 title = "entradas"
+url = "/entradas"
 
   [entries.post_list]
   section = "entradas"
-  show_more = true
-  show_more_text = "ver más..."
-  show_more_url = "entradas"
+  limit = 3
+
+[[entries]]
+title = "redes"
+
+  [[entries.items]]
+  title = "x"
+  url = "https://x.com/lflamonega"
+
+  [[entries.items]]
+  title = "linkedin"
+  url = "https://linkedin.com/in/lflamonega"
+
+  [[entries.items]]
+  title = "github"
+  url = "https://github.com/lflamonega"
+
+  [[entries.items]]
+  title = "youtube"
+  url = "https://youtube.com/@lflamonega"
+
+  [[entries.items]]
+  title = "correo"
+  url = "mailto:lflamonega@gmail.com"
 
 [[entries]]
 title = "rss"
