@@ -1,0 +1,31 @@
+baseURL = 'https://lflamonega.github.io/'
+locale = 'es-ar'
+title = 'LFL'
+theme = 'nostyleplease'
+
+[permalinks]
+  post = '/post/:slug/'
+  posts = '/post/:slug/'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+  [markup.highlight]
+    codeFences         = true
+    guessSyntax        = false
+    lineNos            = false
+    noClasses          = true
+    style              = 'rrt'
+    tabWidth           = 4
+
+[params]
+  favicon = "/favicon.png"
+  [params.theme_config]
+    appearance        = "auto"
+    back_home_text    = ".."
+    date_format       = "2006-01-02"
+    isListGroupByDate = false
+    isShowFooter      = true

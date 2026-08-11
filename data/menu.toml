@@ -1,0 +1,29 @@
+[[entries]]
+title = "X (Twitter)"
+url = "https://x.com/lflamonega"
+
+[[entries]]
+title = "YouTube"
+url = "https://youtube.com/@lflamonega"
+
+[[entries]]
+title = "LinkedIn"
+url = "https://linkedin.com/in/lflamonega"
+
+[[entries]]
+title = "GitHub"
+url = "https://github.com/lflamonega"
+
+[[entries]]
+title = "Email"
+url = "mailto:lflamonega@gmail.com"
+
+[[entries]]
+title = "Posts"
+
+  [entries.post_list]
+  section = "post"
+  limit = 3
+  show_more = true
+  show_more_url = "/post/"
+  show_more_text = "ver todos..."
