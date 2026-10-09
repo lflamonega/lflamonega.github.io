@@ -1,0 +1,32 @@
+---
+title: "El fin de la ingeniería de software"
+slug: "el-fin-de-la-ingenieria-de-software"
+date: "2026-09-20"
+draft: true
+---
+
+Aprendí a programar a los doce años con [PSeInt](https://es.wikipedia.org/wiki/PSeInt), en una clase que tenía dos veces por semana en mi colegio de educación técnica.
+
+> "Escribí un programa que registre y calcule el promedio de las notas de un año de cada uno de los alumnos de un colegio y los imprima en consola."
+
+Por mucho tiempo eso fue lo único que supe hacer. No fue hasta mi último año de la secundaria que empecé a acercarme a la ingeniería de software: capturar requerimientos, definir una estrategia y todas esas cosas que estoy ejemplificando mal, pero que no van al caso. Con unos compañeros hicimos como proyecto final una aplicación en Flutter. No fuimos más lejos que implementar una shell y unos widgets que simulaban andar, copiando código de la documentación, sin demasiado backend. Pensándolo en retrospectiva, no logramos mucho. Pero fue difícil, porque no entendíamos lo que estábamos haciendo y los tutoriales nos llevaban hasta cierto punto.
+
+Habían pasado tan solo tres semanas de la salida de ChatGPT cuando me dieron mi diploma, y el código de esa aplicación quedó abandonado en una carpeta de MediaFire que volví a abrir hace dos meses, cuando me llegó una alerta del sitio diciendo que iban a cerrar mi cuenta por inactividad. Que esa... cosa... generara código de la absoluta nada, y que más o menos casi funcionara, era impresionante. El resto es historia.
+
+Casi cuatro años después, el mundo ya no es el mismo. La gente habla como hablan las IA, los niños miran contenido generado por IA en YouTube en vez de jugar entre ellos, ni hablar de los juegos *vibe-codeados* en Roblox. Se redactan correos, se corrigen exámenes, se editan flyers, y también se hacen cosas bastante más oscuras, como generar contenido sexual con fotos de personas que no tienen ni la más pálida idea de lo que les están haciendo.
+
+La ingeniería de software también recibió su golpe. Hoy al código que escriben los LLM se lo llama *slop*, y mucho se discute si está bien o mal generar código con un agente de IA. Yo creo que el nombre tiene su razón de ser, pero que no hay que ponerse tan exquisitos. Y creo también que lo importante no es si usamos agentes, sino cómo y para lograr qué los estamos usando.
+
+Que el código escrito por LLM sea llamado *slop* tiene sentido. Tenés, básicamente, una máquina de adivinar palabras que es incapaz de entender nada fuera de su ventana de contexto, intentando escribir código que funcione bien con cosas que desconoce completamente. Y que, al mismo tiempo, no puede evitar escribir tanto código que es imposible leerlo. Es un arma de doble filo.
+
+Pero ese código roto no salió de la nada. Los LLM aprendieron a programar, en buena parte, *scrapeando* código público y documentación escrita por humanos. Decir que aprendieron de nosotros no estaría errado. Entonces, ¿hasta qué punto es responsabilidad de los desarrolladores pre-LLM la forma en la que los LLM escriben código? En bastante medida, en mi opinión, pero no del todo, porque desde allá por 2024 que hay [gente advirtiendo](https://techcrunch.com/2024/07/24/model-collapse-scientists-warn-against-letting-ai-eat-its-own-tail/) que los modelos nuevos, entrenados con lo que produjeron los anteriores que se halla disperso por el internet, pueden degradarse todavía más. Pero de nuevo, ¿quién es responsable?
+
+El software nunca fue perfecto. Nunca fue algo pensado para escribirse una vez y dejarse así, sino algo que se tiene que mejorar constantemente. En 1974 Lehman y Belady formularon las [leyes de evolución del software](https://en.wikipedia.org/wiki/Lehman%27s_laws_of_software_evolution), que describen cómo un sistema que cambia se vuelve cada vez más complejo, y cómo su calidad decae si nadie trabaja activamente para evitarlo. Por eso considero que es normal que el código de cualquier sistema real tenga partes horribles, asquerosas y medio rotas, y que algunas de esas partes horripilantes mejoren y otras quizás nunca. Invito a quienes lean esta publicación a mirar los comentarios del código fuente de su sistema operativo favorito, o de algún juego cuyo código fuente haya sido liberado.
+
+Entonces, si el código puede ser feo hasta que mejore o hasta que lo descontinúen, ¿qué lo hace *slop*? En mi opinión, no es la calidad del código. Es el hecho de que, rodeado de código deplorable, haya un pull request escrito por una IA, con otros 75 commits que escriben la misma función siete veces, y con una persona que no es capaz de responder un comentario sobre lo que está escrito. La responsabilidad no es del modelo, es de quien abre el pull request.
+Si eliminás todo eso y en su lugar recibís un único parche pequeño y autocontenido de la mano de una persona que lo defiende, lo entiende y no comete todos esos errores, ¿podrías decir con seguridad que fue generado por un LLM?
+
+Yo desplegué *slop* en producción. Yo copiaba código. Todos, en algún momento, mandamos a producción código que no entendíamos, y ni antes ni ahora corresponde hacerlo. A veces uno se encandila con las metas de productividad y comete ese error, pero no tenía sentido entonces ni lo tiene ahora.
+Si dejamos que el agente nos guíe en un frenesí de desarrollo, sin detenernos a pensar qué se supone que está intentando hacer, vamos a perder el control. He escuchado a gente decir que al menos cuando copiabas y editabas los ejemplos aprendías algo, porque tenías que hacerlo. Lo mismo te pasa si leés lo que escribió el agente, intentás entender lo que está pasando y no le permitís usar funcionalidades que todavía no entendés.
+
+Si algo puede ser el fin de la ingeniería de software, no es que una máquina escriba código, sino que dejemos de entenderlo por correr detrás de la productividad. No creo que hacerle asco al código de IA sea lógico, porque todavía hay mucho que aprender. Puedo decir con seguridad que aprendí mucho con esta mentalidad: preguntándole cosas a un agente, pensando ideas para resolver un problema y haciendo todo lo posible para seguir escribiendo código y pensando, aunque lleve un poco más de tiempo. Si perdemos ese hábito y corremos lo más rápido posible detrás de la zanahoria, sin importar lo que pase, perdemos la habilidad de programar, y eso no vale la pena para quienes, como yo, tardamos mucho en entender cómo funciona un *for*.
