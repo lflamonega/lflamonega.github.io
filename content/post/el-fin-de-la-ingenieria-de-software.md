@@ -1,7 +1,7 @@
 ---
 title: "El fin de la ingeniería de software"
 slug: "el-fin-de-la-ingenieria-de-software"
-date: "2026-09-20"
+date: "2026-10-25"
 draft: false
 ---
 
