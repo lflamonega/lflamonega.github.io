@@ -2,7 +2,7 @@
 title: "El fin de la ingeniería de software"
 slug: "el-fin-de-la-ingenieria-de-software"
 date: "2026-09-20"
-draft: true
+draft: false
 ---
 
 Aprendí a programar a los doce años con [PSeInt](https://es.wikipedia.org/wiki/PSeInt), en una clase que tenía dos veces por semana en mi colegio de educación técnica.

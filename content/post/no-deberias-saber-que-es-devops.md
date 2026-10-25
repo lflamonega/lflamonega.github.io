@@ -1,5 +1,6 @@
 ---
 title: "No deberías saber qué es DevOps"
+slug: "no-deberias-saber-que-es-devops"
 date: 2026-08-10
 draft: false
 ---
