@@ -2,7 +2,7 @@
 title: "De qué hablamos cuando hablamos de arnés"
 slug: "de-que-hablamos-cuando-hablamos-de-arnes"
 date: "2026-11-10"
-draft: true
+draft: false
 ---
 
 Para todos los que no mantenemos un clúster de GPUs, el LLM que usamos en el día a día termina siendo una API. Detrás hay mucha infraestructura, servicios que convierten los pesos de los modelos en algo compatible con HTTP. Pero delante de esa API también hay servicios que la convierten en lo que conocemos hoy: chats, agentes. Últimamente estuve pensando mucho en cómo llamarlos, en qué tipos hay, y en cómo ese conocimiento puede ayudarnos a entender todo lo que se puede hacer con un modelo.
